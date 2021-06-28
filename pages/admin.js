@@ -33,7 +33,7 @@ export default (props) => {
                   className={classes.textField}
                 />
               </Grid>
-              <Grid item sm={12} md={6}>
+              <Grid item sm={12} md={5}>
                 <TextField
                   variant="outlined"
                   label="Allergies"
@@ -43,7 +43,7 @@ export default (props) => {
                   className={classes.textField}
                 />
               </Grid>
-              <Grid item sm={12} md={6}>
+              <Grid item sm={12} md={5}>
                 <TextField
                   variant="outlined"
                   label="Other Medical Info"
