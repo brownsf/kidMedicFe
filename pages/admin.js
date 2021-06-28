@@ -25,8 +25,8 @@ export default (props) => {
       <Grid item xs={8}>
         <Paper>
           <form className={classes.root} noValidate>
-            <Grid container direction="row">
-              <Grid item sm={12}>
+            <Grid container direction="row" justify="space-around">
+              <Grid item sm={10}>
                 <TextField
                   required
                   label="Child's Name"
